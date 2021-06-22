@@ -16,13 +16,13 @@ http://localhost:8080/index
 Para la ejecución en heroku se debe hacer clic sobre la imágen de heroku y directamente el enlace lleva al juego.
 
 Esta es la pantalla de inicio que se presenta al usuario.
-![Design Paso1](Design/heroku1.PNG "Paso1")<br>
+![Instrucciones Paso1](images/heroku1.PNG "Paso1")<br>
 El usuario ingresa un número de 4 dígitos y dar clic en comprobar.
-![Design Paso2](Design/heroku2.PNG "Paso2")<br>
+![Instrucciones Paso2](images/heroku2.PNG "Paso2")<br>
 El programa mostrará cuantas picas y famas se obtuvo, además del último número ingresado, el usuario debe seguir intentando hasta adivinar el número.
-![Design Paso3](Design/heroku3.PNG "Paso3")<br>
+![Instrucciones Paso3](images/heroku3.PNG "Paso3")<br>
 Una vez el jugador gana sale un mensaje de felicitaciones y el usuario puede volver a jugar dando click al botón.
-![Design Paso4](Design/heroku4.PNG "Paso4")<br>
+![Instrucciones Paso4](images/heroku4.PNG "Paso4")<br>
 ## Diagrama de clases
 
 ### Paquete springWeb
