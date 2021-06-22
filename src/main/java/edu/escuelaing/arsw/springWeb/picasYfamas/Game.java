@@ -115,5 +115,12 @@ public class Game
     	}
     	randomNumber();
     }
+    /**
+     * this methot set list args
+     * @param args list of numbers
+     */
+    public void setArgs(int[] args) {
+    	this.args = args;
+    }
     
 }
