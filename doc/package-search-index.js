@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.escuelaing.arsw.springWeb"},{"l":"edu.escuelaing.arsw.springWeb.htmlTemplates"},{"l":"edu.escuelaing.arsw.springWeb.picasYfamas"},{"l":"edu.escuelaing.arsw.springWeb.springController"}];updateSearchResults();
