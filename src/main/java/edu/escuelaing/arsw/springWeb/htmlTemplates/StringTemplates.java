@@ -1,5 +1,9 @@
 package edu.escuelaing.arsw.springWeb.htmlTemplates;
-
+/**
+ * this class saves templates of the html pages used
+ * @author Daniel Santiago Ducuara Ardila
+ *
+ */
 public class StringTemplates {
 	
 	private String indexHtml = "<!DOCTYPE html>\r\n"
@@ -36,11 +40,17 @@ public class StringTemplates {
 			+ "</body> \r\n"
 			+ "</html><br><br>\r\n";
 	
-	
+	/**
+	 * returns a string html page
+	 * @return a string representing an html page
+	 */
 	public String getIndexHtml() {
 		return indexHtml;
 	}
-	
+	/**
+	 * returns a string html page
+	 * @return a string representing an html page
+	 */
 	public String getWinHtml() {
 		return winHtml;
 	}
