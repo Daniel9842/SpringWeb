@@ -32,6 +32,7 @@ contadores de picas y famas,otras listas y una variable boolean que cambia si el
 variables,actualizar variables y reiniciar el juego.La clase controllerIndex es quien hace un llamado al juego para iniciarlo.
 
 ### Paquete templates
+![Design templates](Design/templates.PNG "templates")<br>
 Este paquete consta de la clase StringTemplates que solamente contiene dos atributos que contienen las páginas html y dos métodos que retornan esta variable una vez 
 el controlador solicita dichas páginas.
 
