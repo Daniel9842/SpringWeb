@@ -49,7 +49,7 @@ Este paquete consta de la clase StringTemplates que solamente contiene dos atrib
 el controlador solicita dichas páginas.
 
 ## Reporte de pruebas
-![Test reportTest(images/test.PNG "test")<br>
+![Test reportTest](images/test.PNG "test")<br>
 Se realiza prueba a la clase game verificando que retorne valores verdaderos de picas y famas, las pruebas constan de 2 pruebas a picas, 
 2 pruebas a famas y una prueba para comprobar que el usuario gana el juego con 4 picas.
 ## Productividad
