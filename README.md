@@ -9,9 +9,20 @@ Cada vez que el usuario escriba su número el programa le retornará el número 
 picas: cantidad de números en la posición correcta.
 famas: cantidad de digitos que se encuentran en el número pero en una posicion incorrecta.
 
+
+## Instrucciones
 Para la ejecución del programa localmente es necesario iniciar la clase SpringWebApplication y en el navegador colocar la siguiente ruta:
 http://localhost:8080/index
+Para la ejecución en heroku se debe hacer clic sobre la imágen de heroku y directamente el enlace lleva al juego.
 
+Esta es la pantalla de inicio que se presenta al usuario.
+![Design Paso1](Design/heroku1.PNG "Paso1")<br>
+El usuario ingresa un número de 4 dígitos y dar clic en comprobar.
+![Design Paso2](Design/heroku2.PNG "Paso2")<br>
+El programa mostrará cuantas picas y famas se obtuvo, además del último número ingresado, el usuario debe seguir intentando hasta adivinar el número.
+![Design Paso3](Design/heroku3.PNG "Paso3")<br>
+Una vez el jugador gana sale un mensaje de felicitaciones y el usuario puede volver a jugar dando click al botón.
+![Design Paso4](Design/heroku4.PNG "Paso4")<br>
 ## Diagrama de clases
 
 ### Paquete springWeb
