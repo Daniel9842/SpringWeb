@@ -48,6 +48,10 @@ variables,actualizar variables y reiniciar el juego.La clase controllerIndex es 
 Este paquete consta de la clase StringTemplates que solamente contiene dos atributos que contienen las páginas html y dos métodos que retornan esta variable una vez 
 el controlador solicita dichas páginas.
 
+## Reporte de pruebas
+![Test reportTest(images/test.PNG "test")<br>
+Se realiza prueba a la clase game verificando que retorne valores verdaderos de picas y famas, las pruebas constan de 2 pruebas a picas, 
+2 pruebas a famas y una prueba para comprobar que el usuario gana el juego con 4 picas.
 ## Productividad
 La productividad de este proyecto fue de 235LOC/26 horas .
 
