@@ -10,6 +10,7 @@ class SpringWebApplicationTests {
 
 	public void testPicas() {
 		Game game = new Game();
+		
 	}
 
 }
