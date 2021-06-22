@@ -27,14 +27,14 @@ public class Game
 		duplicate();
     	for(int i=0;i<args.length;i++) {
         	if(args[i]==numbers.get(i)) {
-        		picas+=1;
+        		picas=picas+1;
         		numbers.set(i,-5);
         	}
         }
     	for(int j=0;j<args.length;j++) {
     		int positionNumber = numbers.indexOf(args[j]);
         	if(positionNumber!=-1) {
-        		famas=+1;
+        		famas=famas+1;
         	}
         if(picas==4) {
         	win=true;
@@ -116,11 +116,13 @@ public class Game
     	randomNumber();
     }
     /**
-     * this methot set list args
+     * this methot set list numbers
      * @param args list of numbers
      */
-    public void setArgs(int[] args) {
-    	this.args = args;
+    public void setNumbers(int[] args) {
+    	for(int i=0;i<args.length;i++) {
+    		numbers.add(args[i]);
+        }
     }
     
 }
